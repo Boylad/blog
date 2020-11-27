@@ -1,0 +1,6 @@
+[posts]
+	title = "All posts"
+[posts.image]
+          feature = "/images/000.jpg"
+          credit = "Blade Runner 2049"
+          #creditlink = "http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"

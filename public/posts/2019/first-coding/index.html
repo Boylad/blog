@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>用Python‘画’小猪佩奇 &#8211; Boylad</title>
+<meta name="description" content="">
+
+    
+
+<meta name="keywords" content="Coding">
+
+
+
+<meta name="twitter:title" content="用Python‘画’小猪佩奇">
+<meta name="twitter:description" content="To boldly go where no one has gone before.">
+
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="用Python‘画’小猪佩奇">
+<meta property="og:description" content="To boldly go where no one has gone before.">
+<meta property="og:url" content="https://www.guankui.name/posts/2019/first-coding/">
+<meta property="og:site_name" content="Boylad">
+
+
+
+  <meta property="og:updated_time" content="2019-05-08T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+<link rel="canonical" href="https://www.guankui.name/posts/2019/first-coding/">
+
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="/css/main.min.css"/>
+
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css"/>
+
+<meta http-equiv="cleartype" content="on">
+
+<meta name="generator" content="Hugo 0.78.2" />
+
+<script src="/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body id="post" >
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation" style="display:inline-block">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/"><i class="fa fa-fw fa-home"></i>Home</a></li>
+
+
+		<li>
+			<a href="#"><i class="fa fa-fw fa-pencil"></i>Posts</a>
+			<ul class="dl-submenu">
+			  	<li><a href="/posts/"><i class="fa fa-fw fa-archive"></i>All Posts</a></li>
+				<li><a href="/tags/"><i class="fa fa-fw fa-tags"></i>All Tags</a></li>
+				<li><a href="/categories/"><i class="fa fa-fw fa-archive"></i>Categories</a></li>
+			</ul>
+		</li>
+    <li><a href="/todo/"><i class="fa fa-list-ul"></i> Todo</a></li>
+		<li><a href="/about/"><i class="fa fa-user"></i> About</a></li>
+
+		<li>
+			
+			
+				<li>
+					
+					<img src="/images/avatar.jpg" alt="Guankui's photo" class="author-photo">
+					
+					<h4>Guankui</h4>
+					
+					<a href="https://guankuiliu.github.io/">www.boylad.com</a>
+				</li>
+				<li><a href="/CV/"><span class="btn btn-success">My CV</span></a></li>
+				
+				<li>
+					<a href="https://github.com/Boylad"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/Guankui_Liu"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+			
+			
+
+		</li>
+		
+	    <li><a href="/links/" >Links</a></li>
+	  
+
+	</ul>
+</nav>
+
+ 
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/posts/2019/first-coding/" rel="bookmark" title="用Python‘画’小猪佩奇">用Python‘画’小猪佩奇</a></h1>
+        
+         
+        <h2><span class="entry-date date published"><time datetime="2019-05-08 00:00:00 &#43;0000 UTC">May 8, 2019</time></span></h2>
+        
+        
+
+    
+      </div>
+    </header>
+    <div class="entry-content">
+      <p>四月份的时候，学院举办的数学文化节中一项活动是通过编程的方法画一只小猪佩奇。当时我初学Python没多久，知道有一个<a href="https://docs.python.org/zh-cn/3/library/turtle.html" target="_blank"><code>turtle</code></a>库可以控制笔触在画布上移动而形成图案。于是我就想着以此来‘画’一只小猪佩奇，作为初学Python编程的一次尝试。</p>
+<figure align="center">
+  <img src="https://gitee.com/boylad/images-for-blog/raw/master/before_2020/Peppa_Pig.jpg" height="300" width="300" title = '小猪佩奇'/>
+</figure>
+<p>对于一个复杂且无规律可循的图案，通过代码控制笔触是匪夷所思的。我意识到可以将每个像素点画出来，这样只需要不断画直线就可以了，但这意味着低效率。为了提高效率，我尝试了<a href="https://computing.llnl.gov/tutorials/parallel_comp/" target="_blank">并行计算</a>——同时画多条直线，然而我没能成功。从理论上讲这是完全可以实现的，可能是我对Python还不够熟悉吧。</p>
+<p>以下的Python代码要做的事情非常简单：先获取一张小猪佩奇图片，将其像素点依次储存到一个名为array的列表中，列表中的每个元素为一个三元（R、G、B）元组；然后用Turtle依次遍历此列表中每个元素，Turtle的颜色亦遍历列表中每个元素，并用循环语句控制好换行。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> urllib.request
+<span style="color:#f92672">from</span> PIL <span style="color:#f92672">import</span> Image
+<span style="color:#f92672">import</span> turtle
+<span style="color:#f92672">import</span> os
+
+url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://raw.githubusercontent.com/Guankuiliu/&#34;</span>\
+       <span style="color:#e6db74">&#34;image/master/Figure2018/git/Peppa_Pig.jpg&#34;</span>
+name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>
+conn <span style="color:#f92672">=</span> urllib<span style="color:#f92672">.</span>request<span style="color:#f92672">.</span>urlopen(url)
+f <span style="color:#f92672">=</span> open(name,<span style="color:#e6db74">&#39;wb&#39;</span>)
+f<span style="color:#f92672">.</span>write(conn<span style="color:#f92672">.</span>read())
+f<span style="color:#f92672">.</span>close()
+
+im <span style="color:#f92672">=</span> Image<span style="color:#f92672">.</span>open(<span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>)
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>resize((<span style="color:#ae81ff">180</span>, <span style="color:#ae81ff">180</span>))
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>rotate(<span style="color:#ae81ff">90</span>)
+os<span style="color:#f92672">.</span>remove(<span style="color:#e6db74">&#34;Peppa_Pig.jpg&#34;</span>)
+
+width <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">0</span>]
+height <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>size[<span style="color:#ae81ff">1</span>]
+im <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>convert(<span style="color:#e6db74">&#39;RGB&#39;</span>)
+array <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(width):
+    <span style="color:#66d9ef">for</span> y <span style="color:#f92672">in</span> range(height):
+        r, g, b <span style="color:#f92672">=</span> im<span style="color:#f92672">.</span>getpixel((x,y))
+        rgb <span style="color:#f92672">=</span> (r<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>, g<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>, b<span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>)
+        array<span style="color:#f92672">.</span>append(rgb)
+
+turtle<span style="color:#f92672">.</span>screensize(canvwidth <span style="color:#f92672">=</span> width, canvheight <span style="color:#f92672">=</span> height, bg <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;green&#39;</span>)
+turtle<span style="color:#f92672">.</span>setup(width <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.8</span>, height <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.8</span>)
+t <span style="color:#f92672">=</span> turtle<span style="color:#f92672">.</span>Turtle()
+t<span style="color:#f92672">.</span>shape(<span style="color:#e6db74">&#39;turtle&#39;</span>)
+t<span style="color:#f92672">.</span>color(<span style="color:#e6db74">&#39;black&#39;</span>)
+t<span style="color:#f92672">.</span>speed(<span style="color:#ae81ff">10</span>)
+t<span style="color:#f92672">.</span>penup()
+t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">250</span>)
+t<span style="color:#f92672">.</span>pensize(<span style="color:#ae81ff">1</span>)
+i_1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+
+<span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(width):
+    <span style="color:#66d9ef">while</span> i_1<span style="color:#f92672">&lt;</span>height<span style="color:#f92672">*</span>(j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+        t<span style="color:#f92672">.</span>pendown()
+        t<span style="color:#f92672">.</span>color(array[i_1])
+        t<span style="color:#f92672">.</span>pencolor(array[i_1])
+        t<span style="color:#f92672">.</span>forward(<span style="color:#ae81ff">1</span>)
+        i_1  <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    i_1 <span style="color:#f92672">+=</span> height
+    t<span style="color:#f92672">.</span>right(<span style="color:#ae81ff">90</span>)
+    t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span><span style="color:#f92672">+</span>height,<span style="color:#ae81ff">250</span><span style="color:#f92672">-</span>j<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+    t<span style="color:#f92672">.</span>right(<span style="color:#ae81ff">90</span>)
+             
+    <span style="color:#66d9ef">while</span> i_1 <span style="color:#f92672">&gt;</span> height<span style="color:#f92672">*</span>(j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>):
+        t<span style="color:#f92672">.</span>pendown()
+        t<span style="color:#f92672">.</span>color(array[i_1])
+        t<span style="color:#f92672">.</span>pencolor(array[i_1])
+        t<span style="color:#f92672">.</span>forward(<span style="color:#ae81ff">1</span>)
+        i_1  <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>
+    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">90</span>)
+    t<span style="color:#f92672">.</span>goto(<span style="color:#f92672">-</span><span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">250</span><span style="color:#f92672">-</span>j<span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>)
+    t<span style="color:#f92672">.</span>left(<span style="color:#ae81ff">90</span>)
+</code></pre></div><p>因为效率问题，我将以上代码运行结果用<a href="https://www.xbox.com/en-US/" target="_blank">XBox</a>录屏后又用PS进行了倍速处理，32倍速的效果如下：</p>
+<center>
+<iframe  width="100%"  height="300" allow="autoplay; encrypted-media" src="//player.bilibili.com/player.html?aid=62765143&cid=109050637&page=1?rel=0&amp;autoplay=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</center>
+
+      <footer class="entry-meta">
+          
+        <span class="entry-tags"><a href="/tags/#coding" title="Pages tagged coding" class="tag"><span class="term">coding</span></a></span>
+        
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.guankui.name%2fposts%2f2019%2ffirst-coding%2f" target="_blank" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.guankui.name%2fposts%2f2019%2ffirst-coding%2f" target="_blank" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=https%3a%2f%2fwww.guankui.name%2fposts%2f2019%2ffirst-coding%2f" target="_blank" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div>
+
+      </footer>
+    </div>
+    
+    <section id="disqus_thread">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+    
+      clientID: `0feb11c337392f8c4e5e`,   
+      clientSecret: `44495094c0439416880ea330d4dbacdc6a057125`,
+      repo: `boylad.github.io`,  
+      owner: 'Boylad',   
+      admin: ['Boylad'],  
+      id: 'indow.location.pathname', 
+        });
+      gitalk.render('gitalk-container');
+</script> </section>
+    
+  </article>
+</div>
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span><p>
+    
+</p>
+     Powered by <a href="https://gohugo.io/" rel="nofollow">Hugo</a> using the
+     <a href="https://github.com/dldx/hpstr-hugo-theme" rel="nofollow">HPSTR theme</a>.
+</span>
+
+  </footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="\/js\/vendor\/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/js/scripts.min.js"></script>
+
+
+
+</body>
+</html>
+

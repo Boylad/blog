@@ -1,0 +1,32 @@
+baseurl = "https://www.guankui.name"
+languageCode = "en-gb"
+title = "Boylad"
+theme = "hpstr-hugo-theme"
+publishDir = "public"
+pluralizelisttitles = false
+PygmentsCodeFences = true
+Paginate = 5
+disqusShortname = "Boylad"
+
+
+[params]
+	subtitle = "To boldly go where no one has gone before."
+	[params.author]
+		name = "Guankui"
+		avatar = "/images/avatar.jpg"
+		bio = "www.boylad.com"
+		github = "Boylad"
+		twitter = "Guankui_Liu"
+	[params.image]
+	  feature = "/images/bg.jpg"
+	  credit = "Life 3.0"
+	  creditlink = "https://en.wikipedia.org/wiki/Life_3.0"
+
+ignorefile = ['404.html', "^Thumbs\\.db$"]
+
+
+#extensionsmask = ["noIntraEmphasis"]
+#fractions = false
+
+[markup.goldmark.renderer]
+unsafe=true

@@ -1,0 +1,39 @@
+---
+title: "About"
+share: false
+comments: false
+time: false
+image:
+  feature: https://gitee.com/boylad/images-for-blog/raw/master/BackgroundImg/for_Hogwarts.png
+  credit: Hogwarts
+  creditlink: 'https://aminoapps.com/c/harry-potter/page/blog/im-still-waiting-my-hogwarts-letter/8eTm_uaegxeXJrbVW0P1qEbj1DvqL'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Hi there 👋  I'm here!
+
+```{r echo=FALSE, fig.width=6.67, fig.height=3}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(120.4949949936, 36.1605465284, zoom = 3) %>%
+  addMarkers(lng=120.4929949936, lat=36.1605465284, popup='I am Here')
+```
+
+
+>__科学是永无止境的，它是一个永恒的谜__。——爱因斯坦
+
+```{r echo=FALSE, fig.width=6.67, fig.height=3}
+#>像所有年轻人一样我想成为一个天才，幸好嘲笑打断了我的梦想。——劳伦斯·达雷尔《克里亚》
+
+#>科学是永无止境的，它是一个永恒的谜。——爱因斯坦
+
+#>任何足够先进的科技，皆与魔法无异。——阿瑟·克拉克
+```
+
+
+
+

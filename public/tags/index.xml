@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Boylad</title>
+    <link>https://www.guankui.name/tags/</link>
+    <description>Recent content in Tags on Boylad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.guankui.name/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life Rethinking</title>
+      <link>https://www.guankui.name/tags/life-rethinking/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.guankui.name/tags/life-rethinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Q city</title>
+      <link>https://www.guankui.name/tags/q-city/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.guankui.name/tags/q-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lifestory</title>
+      <link>https://www.guankui.name/tags/lifestory/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.guankui.name/tags/lifestory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>https://www.guankui.name/tags/coding/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.guankui.name/tags/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>H city</title>
+      <link>https://www.guankui.name/tags/h-city/</link>
+      <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.guankui.name/tags/h-city/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

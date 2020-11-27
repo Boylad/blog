@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "...>Expertise &amp": expected "{", was "; Skills</h1>"
+        on line 40 of /home/durand/Stuff/dldx.org-source/public/CV/index.html
+
+35:             <span><i class="fa fa-globe-africa"></i> <a href="https://dldx.org">dldx.org</a></span>
+36:             <span><i class="fab fa-twitter-square"></i> <a href="https://twitter.com/durand101">durand101</a></span>
+37:             <span><i class="fab fa-github"></i> <a href="https://github.com/dldx">dldx</a></span>
+38:         </div>
+39:         <div class="section-heading expertise-tags">
+40:             <h1>Expertise &amp; Skills</h1>
+41:             <span>data visualisation</span>
+42:             <span>machine learning</span>
+43:             <span>Exploratory data analysis</span>
+44:             <span>High-performance programming</span>
+45:             <span>Statistical analysis</span>
+
+Backtrace:
+/home/durand/Stuff/dldx.org-source/public/CV/index.html:40
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:656:in `block'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:665:in `block_contents'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...>Expertise &amp\": expected \"{\", was \"; Skills</h1>\"\A         on line 40 of /home/durand/Stuff/dldx.org-source/public/CV/index.html\A \A 35:             <span><i class=\"fa fa-globe-africa\"></i> <a href=\"https://dldx.org\">dldx.org</a></span>\A 36:             <span><i class=\"fab fa-twitter-square\"></i> <a href=\"https://twitter.com/durand101\">durand101</a></span>\A 37:             <span><i class=\"fab fa-github\"></i> <a href=\"https://github.com/dldx\">dldx</a></span>\A 38:         </div>\A 39:         <div class=\"section-heading expertise-tags\">\A 40:             <h1>Expertise &amp; Skills</h1>\A 41:             <span>data visualisation</span>\A 42:             <span>machine learning</span>\A 43:             <span>Exploratory data analysis</span>\A 44:             <span>High-performance programming</span>\A 45:             <span>Statistical analysis</span>"; }

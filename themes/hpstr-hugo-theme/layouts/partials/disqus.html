@@ -1,0 +1,102 @@
+<!--dis评论系统-->
+<!--<div id="disqus_thread"></div>-->
+<!--<script type="text/javascript">-->
+
+<!--(function() {-->
+<!--    // Don't ever inject Disqus on localhost&#45;&#45;it creates unwanted-->
+<!--    // discussions from 'localhost:1313' on your Disqus account...-->
+<!--    if (window.location.hostname == "localhost")-->
+<!--        return;-->
+
+<!--    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;-->
+<!--    var disqus_shortname = '{{ .Site.DisqusShortname }}';-->
+<!--    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';-->
+<!--    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);-->
+<!--})();-->
+<!--</script>-->
+<!--<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
+<!--<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>-->
+
+
+<!--&lt;!&ndash; 来必力 &ndash;&gt;-->
+<!--<div id="lv-container" data-id="city" data-uid="MTAyMC80Njk1Ny8yMzQ1OA==">-->
+<!--	<script async type="text/javascript">-->
+<!--	window.addEventListener('load', function(){-->
+<!--    // 来必力正式代码-->
+<!--		(function(d, s) {-->
+
+<!--			var j, e = d.getElementsByTagName(s)[0];-->
+
+<!--			if (typeof LivereTower === 'function') { return; }-->
+
+<!--			j = d.createElement(s);-->
+<!--			j.src = 'https://cdn-city.livere.com/js/embed.dist.js';-->
+<!--			j.async = true;-->
+
+<!--			e.parentNode.insertBefore(j, e);-->
+
+<!--		})(document, 'script');-->
+<!--  }, false)-->
+<!--	</script>-->
+<!--	<noscript>Please activate JavaScript for write a comment in LiveRe</noscript>-->
+<!--</div>-->
+<!--&lt;!&ndash; City版安装代码已完成 &ndash;&gt;-->
+
+<!-- LiveRe City install code
+<div id="lv-container" data-id="city" data-uid="MTAyMC80Njk1Ny8yMzQ1OA==">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>Please activate JavaScript for write a comment in LiveRe</noscript>
+</div>-->
+<!-- completed City install code -->
+
+  <!-- Gitalk 评论 start  -->
+<!--
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<script type="text/javascript" src="/static/js/md5.min.js"></script>
+
+  <div id="gitalk-container"></div>
+      <script type="text/javascript">
+      var gitalk = new Gitalk({
+
+      // gitalk的主要参数
+          clientID: `0feb11c337392f8c4e5e`,
+          clientSecret: `44495094c0439416880ea330d4dbacdc6a057125`,
+          repo: `boylad.github.io`,
+          owner: 'boylad',
+          admin: ['boylad'],
+          id: md5(location.pathname),
+     
+      });
+      gitalk.render('gitalk-container');
+      </script>-->
+  <!-- Gitalk end -->
+  
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+
+<div id="gitalk-container"></div>     
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+    // gitalk的主要参数
+      clientID: `0feb11c337392f8c4e5e`,   //上面获取到的值
+      clientSecret: `44495094c0439416880ea330d4dbacdc6a057125`,//上面获取到的值
+      repo: `boylad.github.io`,  //您刚才建立仓库的名字
+      owner: 'Boylad',   //你的GitHub用户名字
+      admin: ['Boylad'],  //你的GitHub用户的名字
+      id: 'indow.location.pathname', //id不能重复，如果重复就会把其他页面的评论引进来
+        });
+      gitalk.render('gitalk-container');
+</script> 
